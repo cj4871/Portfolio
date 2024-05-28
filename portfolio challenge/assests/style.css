@@ -1,0 +1,108 @@
+nav{
+   background-image: url(./Photos/background\ css.jpeg);
+   width: 100%;
+   height: 75px;
+
+}
+li {
+    margin: 4px;
+}
+li:hover{
+    color: blue;
+    cursor: grab;
+}
+nav #fullname{
+    padding-left: 40px;
+    margin-top: 20px;
+    float: left;
+    font-size: 40px;
+    background-color: silver;
+}
+
+nav #navbar-right{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: row;
+    float: right;
+    color: antiquewhite ;
+    list-style-type: none;
+    text-decoration: underline;
+    font-size: 30px;
+    padding-right: 100px;
+}
+.sidebar{
+    display: flex;
+    justify-content: space-between;
+}
+
+#aside1{
+    font-size: 50pt;
+    padding: 0;
+    width: 20%;
+    position: relative;
+    margin-right: 20px;
+    border-right: 4px solid blue;
+    margin-top: 10px;
+    
+}
+#about-me{
+    margin-left: 5px;
+    float: right;
+    display: table;
+    clear: both;
+}
+
+section #aside2{
+    margin-top: 100px;
+    width: 200px;
+    position: relative;
+    border-right: 4px solid blue;
+    height: 600px;
+}
+#aside2{
+    font-size: 50pt;
+}
+
+#work{
+    position: relative;
+    margin-left: 300px;
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+img:hover{
+    cursor: grab;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 20px;
+
+}
+footer h2{
+    padding-left: 40px;
+    margin-top: 40px;
+    float: left;
+    font-size: 40px;
+    color: black;
+    border-right: 4px solid blue;
+
+}
+.social{
+    font-size: 20pt;
+}
+#contactMe{
+    float: right;
+    display: flex;
+    flex-flow: row;
+    color: black;
+    text-decoration: underline;
+    margin: 50px;
+    list-style-type: none;
+
+}
